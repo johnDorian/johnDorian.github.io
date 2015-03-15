@@ -1,7 +1,6 @@
 ---
 layout: post
 title "First test post with an Rmd file"
-author: Jason Lessels
 published: false
 status: process
 draft: false
@@ -9,8 +8,9 @@ description: ""
 category: 
 tags: ["R", "Jekyll"]
 ---
-
 {% include JB/setup %}
+
+
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
