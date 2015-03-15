@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "firsttestmd"
+title: "firsttest"
 description: ""
 category: 
 tags: ["R", "Jekyll"]
