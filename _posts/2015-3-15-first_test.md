@@ -1,14 +1,13 @@
 ---
 layout: post
-title First test post with an Rmd file
-author: Jason Lessels
+title "First test post with an Rmd file"
 published: true
 status: publish
 draft: false
 tags: R Jekyll
 ---
  
--{% include JB/setup %}
+{% include JB/setup %}
  
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
  
