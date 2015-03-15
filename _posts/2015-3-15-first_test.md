@@ -5,6 +5,8 @@ published: true
 status: publish
 draft: false
 tags: R Jekyll
+category: 
+tags: []
 ---
  
 {% include JB/setup %}
