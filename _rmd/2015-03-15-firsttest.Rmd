@@ -1,11 +1,13 @@
 ---
 layout: post
-title First test post with an Rmd file
+title "First test post with an Rmd file"
 author: Jason Lessels
 published: false
 status: process
 draft: false
-tags: R Jekyll
+description: ""
+category: 
+tags: ["R", "Jekyll"]
 ---
 
 {% include JB/setup %}
