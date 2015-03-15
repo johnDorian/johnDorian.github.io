@@ -1,12 +1,9 @@
 ---
 layout: post
 title: "firsttest"
-description: ""
+description: "A description test"
 category: 
 tags: ["R", "Jekyll"]
-published: false
-status: process
-draft: false
 ---
 
 
