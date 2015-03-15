@@ -1,12 +1,14 @@
 ---
 layout: post
-title "helloworld"
+title: "firsttestmd"
 description: ""
 category: 
 tags: ["R", "Jekyll"]
 ---
+
+
 ## A title here
-{% include JB/setup %}
+
 
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
