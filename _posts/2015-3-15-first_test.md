@@ -4,9 +4,9 @@ title "First test post with an Rmd file"
 published: true
 status: publish
 draft: false
-tags: R Jekyll
+description: ""
 category: 
-tags: []
+tags: ["R", "Jekyll"]
 ---
  
 {% include JB/setup %}
