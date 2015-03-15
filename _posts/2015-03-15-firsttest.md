@@ -4,6 +4,9 @@ title: "firsttest"
 description: ""
 category: 
 tags: ["R", "Jekyll"]
+published: false
+status: process
+draft: false
 ---
 
 
