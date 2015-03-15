@@ -1,9 +1,6 @@
 ---
 layout: post
 title "First test post with an Rmd file"
-published: true
-status: publish
-draft: false
 description: ""
 category: 
 tags: ["R", "Jekyll"]
