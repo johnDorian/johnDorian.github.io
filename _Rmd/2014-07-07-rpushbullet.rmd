@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Shopping made easy with RPushbullet
-tags: ["R","RPushbullet""]
+tags: ["R","RPushbullet"]
 ---
 
 Recently [Dirk Eddelbuettel](http://dirk.eddelbuettel.com/) released the new R package [RPushbullet](http://dirk.eddelbuettel.com/code/rpushbullet.html) to allow for pushing via [pushbullet](https://www.pushbullet.com/) from R. This package is great if you want to know when some long slow running model has finished going through all the loops etc.. However, recently I have been trying to buy new forks for my mountain bike off a fourm over on [single track](http://singletrackworld.com/forum/forum/classifieds). The great thing about single track sales is the price but there is one slight problem. People generally get in quick and snap up the bargins well before I get a chance. This is where RPushbullet comes in to save me.
