@@ -48,13 +48,14 @@ if(sum(index)&gt;0){
 
 With the script completed and saved as something like searchSingleTrack.R I can now use crontab on my mac to get the script to run every 30 minutes. I didn't have any previous crontab jobs up and running so I had to set everything up from scratch. This is all fairly easy stuff. In a terminal window:
 
-```{bash}
+```bash
 sudo touch /etc/crontab
 crontab -e
 ```
+
 This will open up the crontab file. Within this you need to add the following (press i [for insert]):
 
-```{bash}
+```bash
 0,30 * * * * Rscript /Users/USERNAME/searchSingleTrack.R
 ```
 
