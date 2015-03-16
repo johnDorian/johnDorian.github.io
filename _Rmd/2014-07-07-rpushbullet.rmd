@@ -1,6 +1,6 @@
 ---
+title: "Shopping made easy with RPushbullet"
 layout: post
-title: Shopping made easy with RPushbullet
 tags: ["R","RPushbullet"]
 ---
 
