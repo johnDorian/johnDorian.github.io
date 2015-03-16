@@ -10,7 +10,8 @@ By combining the XML, stringr and the RPushBullet packages I can download the ti
 
 The script is below. It also includes a log of post titles that have already been sent to my phone to ensure I don't get flooded repetitively.
 
-```{r, eval=FALSE}
+
+{% highlight r %}
 # Load the required packages
 library(XML)
 library(RPushbullet)
@@ -44,7 +45,7 @@ if(sum(index)&gt;0){
  # Update the log file for the next round. 
   save(log, file=&quot;/Users/USERNAME/singletrack.Rdata&quot;)
 }
-```
+{% endhighlight %}
 
 With the script completed and saved as something like searchSingleTrack.R I can now use crontab on my mac to get the script to run every 30 minutes. I didn't have any previous crontab jobs up and running so I had to set everything up from scratch. This is all fairly easy stuff. In a terminal window:
 
