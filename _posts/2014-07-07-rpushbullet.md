@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First play with the matbotix sonar sensor
+title: Shopping made easy with RPushbullet
 tags: [R RPushbullet]
 ---
 
