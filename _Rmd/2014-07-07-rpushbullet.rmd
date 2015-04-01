@@ -16,33 +16,33 @@ library(XML)
 library(RPushbullet)
 library(stringr)
 # Check to see if there is a log file on the system and load it.
-if(sum(str_detect(dir(&quot;/Users/USERNAME/&quot;), &quot;singletrack.Rdata&quot;))==0){
-  log &lt;- &quot;&quot;
+if(sum(str_detect(dir("/Users/USERNAME/"), "singletrack.Rdata"))==0){
+  log <- ""
 } else {
-  load(&quot;/Users/USERNAME/singletrack.Rdata&quot;)
+  load("/Users/USERNAME/singletrack.Rdata")
 }
 # assign the forums url
-theurl &lt;- &quot;http://singletrackworld.com/forum/forum/classifieds&quot;
+theurl <- "http://singletrackworld.com/forum/forum/classifieds"
 # rip the forum titles as a table
-tables &lt;- readHTMLTable(theurl)
+tables <- readHTMLTable(theurl)
 # reformat the table structure
-post_titles &lt;- as.character(tables[[1]][,1])
+post_titles <- as.character(tables[[1]][,1])
 
 # Create an index of posts that match what I am after
-index &lt;- str_detect(tolower(post_titles), &quot;rockshox&quot;)
+index <- str_detect(tolower(post_titles), "rockshox")
 if(sum(index)&gt;0){
   # Subset the posts that match the keyword
-  posts &lt;- (1:length(index))[index==1]
+  posts <- (1:length(index))[index==1]
   # Loop through the matches and check to see if they are in the log. 
   # if not then push it to the phone, and add it to the log file.
   for(i in posts){
     if(!any(str_detect(tolower(log), tolower(post_titles[i])))){
-      log &lt;- c(log, tolower(post_titles[i]))
-      pbPost(&quot;link&quot;, post_titles[i], url=&quot;http://singletrackworld.com/forum/forum/classifieds&quot;)
+      log <- c(log, tolower(post_titles[i]))
+      pbPost("link", post_titles[i], url="http://singletrackworld.com/forum/forum/classifieds")
     }
   }
  # Update the log file for the next round. 
-  save(log, file=&quot;/Users/USERNAME/singletrack.Rdata&quot;)
+  save(log, file="/Users/USERNAME/singletrack.Rdata")
 }
 ```
 
