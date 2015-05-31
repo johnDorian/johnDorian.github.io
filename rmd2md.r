@@ -35,7 +35,7 @@ rmd2md <- function( path_site = getwd(),
     render_jekyll(highlight = "pygments")
     opts_knit$set(out.format='markdown') 
     opts_knit$set(base.url = "/")
-    opts_chunk$set(fig.path = url_images)                     
+    opts_chunk$set(fig.path = paste0(url_images, paste0(substr(f, 1, (nchar(f)-(nchar(in_ext))))), "/"))                     
     try(knit(text=content, output=outFile), silent=FALSE)
   }
   invisible()

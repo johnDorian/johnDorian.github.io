@@ -9,7 +9,7 @@ relative_permalinks: true
 # Setup
 title:            'Code...'
 tagline:          ''
-description:      'Bits of code that I thought I should document for future reference.
+description:      'Bits of code documented for future reference.
 <a href="https://twitter.com/jslessels" target="_blank">@jslessels</a>'
 baseurl:          /
 
