@@ -125,7 +125,12 @@ combined_plot
 
 <img src="/figures/2015-04-02-ggsnippets/unnamed-chunk-6-1.png" title="center" alt="center" style="display: block; margin: auto;" />
  
-The four functions are currently the limitation of the package. Howvever, I am considering adding an additional function which should help with plotting two time series on one plot using two y-axis. 
+ 
+## Finally...
+ 
+The last function `grobsave` provides a modified version of `ggplot2::ggsave` which allows for the saving of `grob` style objects. This can be used to save the plots produced using the `rbind_ggplot_timeseries` or the plot outlined earlier which shows how to manipulate legend objects using the `arrangeGrob` function.
+ 
+Currently the package only contains the four functions listed above. Howvever, I am considering adding an additional function which should help with plotting two time series on one plot using two y-axis. 
  
  
  
