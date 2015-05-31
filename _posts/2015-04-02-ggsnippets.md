@@ -125,7 +125,7 @@ combined_plot
 
 <img src="/figures/2015-04-02-ggsnippets/unnamed-chunk-6-1.png" title="center" alt="center" style="display: block; margin: auto;" />
  
-The four functions is currently the limitation of the package. Howvever, I am considering adding an additional function which should help with plotting two time series on one plot using two y-axis. 
+The four functions are currently the limitation of the package. Howvever, I am considering adding an additional function which should help with plotting two time series on one plot using two y-axis. 
  
  
  

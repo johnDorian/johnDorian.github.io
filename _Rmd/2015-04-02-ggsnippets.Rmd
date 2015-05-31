@@ -111,7 +111,7 @@ combined_plot <- rbind_ggplot_timeseries(ggplot_list =
 combined_plot
 ```
 
-The four functions is currently the limitation of the package. Howvever, I am considering adding an additional function which should help with plotting two time series on one plot using two y-axis. 
+The four functions are currently the limitation of the package. Howvever, I am considering adding an additional function which should help with plotting two time series on one plot using two y-axis. 
 
 
 
