@@ -17,3 +17,5 @@ author:
   name:           'Jason Lessels'
 
 paginate:            3
+
+markdown: kramdown
