@@ -3,6 +3,12 @@ layout: page
 title: R packages
 ---
 
-A list of R packages and where to get them.
+This is a list with a brief description of the various R packages that I have put together.
 
-Coming soon...
+
+| R package | Description | Download (source code) |
+| :--------: | :----------: | :----------------------:|
+| ggsnippets| Additional plotting functions for the `ggplot2` package |  |
+
+
+
