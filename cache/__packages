@@ -1,0 +1,12 @@
+base
+knitr
+ggplot2
+gridExtra
+gtable
+ggsnippets
+lubridate
+dplyr
+reshape2
+ggthemes
+nnet
+jpeg

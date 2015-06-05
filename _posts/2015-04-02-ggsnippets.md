@@ -40,7 +40,7 @@ plt <- ggplot() + geom_point(aes(speed, dist), x_cars) +
 plt
 {% endhighlight %}
 
-<img src="/figures/2015-04-02-ggsnippets/unnamed-chunk-2-1.png" title="center" alt="center" style="display: block; margin: auto;" />
+<img src="/figures/2015-04-02-ggsnippets/unnamed-chunk-2-1.png" title="plot of chunk unnamed-chunk-2" alt="plot of chunk unnamed-chunk-2" style="display: block; margin: auto;" />
  
 and now changing the labels
  
@@ -53,7 +53,7 @@ facet_wrap_labeller(plt, labels = c(expression(a^2),
                                     expression(infinity)))
 {% endhighlight %}
 
-<img src="/figures/2015-04-02-ggsnippets/unnamed-chunk-3-1.png" title="center" alt="center" style="display: block; margin: auto;" />
+<img src="/figures/2015-04-02-ggsnippets/unnamed-chunk-3-1.png" title="plot of chunk unnamed-chunk-3" alt="plot of chunk unnamed-chunk-3" style="display: block; margin: auto;" />
  
 ## Extracting ggplot legends
  
@@ -75,7 +75,7 @@ combined_plot <- arrangeGrob(plt1, plt2, plt_legend, nrow = 1, widths = c( 0.45,
 combined_plot
 {% endhighlight %}
 
-<img src="/figures/2015-04-02-ggsnippets/unnamed-chunk-4-1.png" title="center" alt="center" style="display: block; margin: auto;" />
+<img src="/figures/2015-04-02-ggsnippets/unnamed-chunk-4-1.png" title="plot of chunk unnamed-chunk-4" alt="plot of chunk unnamed-chunk-4" style="display: block; margin: auto;" />
  
 ## Combining multiple time series plots 
  
@@ -107,7 +107,7 @@ combined_plot <- rbind_ggplot_timeseries(ggplot_list =
 combined_plot
 {% endhighlight %}
 
-<img src="/figures/2015-04-02-ggsnippets/unnamed-chunk-5-1.png" title="center" alt="center" style="display: block; margin: auto;" />
+<img src="/figures/2015-04-02-ggsnippets/unnamed-chunk-5-1.png" title="plot of chunk unnamed-chunk-5" alt="plot of chunk unnamed-chunk-5" style="display: block; margin: auto;" />
  
 As the function allows for the limits of the x axis to be set, it is possible to zoom in to specfic moments of all plots. For example:
  
@@ -123,7 +123,7 @@ combined_plot <- rbind_ggplot_timeseries(ggplot_list =
 combined_plot
 {% endhighlight %}
 
-<img src="/figures/2015-04-02-ggsnippets/unnamed-chunk-6-1.png" title="center" alt="center" style="display: block; margin: auto;" />
+<img src="/figures/2015-04-02-ggsnippets/unnamed-chunk-6-1.png" title="plot of chunk unnamed-chunk-6" alt="plot of chunk unnamed-chunk-6" style="display: block; margin: auto;" />
  
  
 ## Finally...

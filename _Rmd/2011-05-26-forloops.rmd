@@ -31,8 +31,11 @@ simpleForloop(c(1,2,3))
 ```
 
 In R a for loop is easy to write;
+
 ```{r, eval=TRUE}
+x <- c(1, 2, 3)
 for(i in 1:length(x)){
+  print(x[i])
 }
 
 ```
