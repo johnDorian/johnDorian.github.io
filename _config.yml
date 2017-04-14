@@ -19,5 +19,4 @@ author:
 paginate:            3
 
 markdown: kramdown
-gems:
-  - jekyll-feed
+
